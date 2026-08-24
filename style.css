@@ -1,0 +1,12 @@
+body {
+	background-color: lavender;
+}
+
+#favorite {
+	font-size: 30px;
+	color: purple;
+}
+
+#pick-1 {
+	cursor: pointer;
+}
