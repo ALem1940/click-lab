@@ -2,28 +2,18 @@ body {
 	background-color: white;
 }
 
-#favorite {
-	font-size: 30px;
-	
+
+.banner {
+	background-color:yellow;
+	color:red;
 }
 
-
-.card {
-  background-color: #ffffff;
-  color: #373c44;
-  border: 1px solid #e7eaf0;
-  border-radius: 10px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06),
-              0 8px 24px rgba(0, 0, 0, 0.08);
-}
 
 .hero {
-  text-align: center;
-  padding-top: 64px;
-  padding-bottom: 64px;
+	background-image: url  ("https://images.unsplash.com/photo-1771642077495-362e8a0f243f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 64px;
 }
-
 
 
