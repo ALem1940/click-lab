@@ -2,31 +2,57 @@
 <html lang="en" data-theme="light">
 	<head>
 		<title>Quiz</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+		<link rel="stylesheet" href="css/card.css">
+		<link rel="stylesheet" href="css/choice-list.css">
+		<!--<link rel="stylesheet" href="css/style.css">-->
 		<script src="script.js" defer></script>
+		
 	</head>
 	<body>
-		<h1 id="headline-1">My Quiz</h1>
+		
+		<h1 id="headline-1">Know your history?</h1>
 		<p id="tagline-1">Take the quiz</p>
+		
 		<header>
 		</header>
 		
 		<main>
-			<p id="favorite">Which country is the oldest?</p>
-			<p id="pick-1">Pick one.</p>
-			<form>
-				<div id="btns">
+			<div class="card">
+				<h3>Which country is the oldest?</h3>
+				<p>Pick one</p>
+			
+				<div id="choice-list">
 					<button type="button" id="first-1">Ethopia</button>
-					<button type="button" id="second-2">Canada</button>
-					<button type="button" id="third-3">Italy</button>
+					<button type="button" id="second-1">Canada</button>
+					<button type="button" id="third-1">Italy</button>
 				</div>
-			</form>
+			</div>
+			<div class="card">
+				<h3>Which country is home is the richest king to ever live?</h3>
+				<p>Pick one</p>
+				
+				<div id="choice-list">
+					<button type="button" id="first-2">France</button>
+					<button type="button" id="second-2">China</button>
+					<button type="button" id="third-2">Mali</button>
+				</div>
+			</div>
+			<div class="card">
+				<h3>Which country is the most mountainous?</h3>
+				<p>Pick one</p>
+			
+				<div id="choice-list">
+					<button type="button" id="first-3">Nepal</button>
+					<button type="button" id="second-3">China</button>
+					<button type="button" id="third-3">Bhutan</button>
+				</div>
 		</main>
 		
 	
 		<footer>
 		</footer>
 		
-		<script src="script.js"></script>
+		<!--<script src="script.js"></script>-->
 	</body>
 </html>

@@ -4,8 +4,8 @@ let headline = document.getElementById("headline-1");
 console.log(headline);
 
 let first = document.getElementById("first-1");
-let second = document.getElementById("second-2");
-let third = document.getElementById("third-3");
+let second = document.getElementById("second-1");
+let third = document.getElementById("third-1");
 let pick = document.getElementById("pick-1");
 
 first.addEventListener("click", function() {
